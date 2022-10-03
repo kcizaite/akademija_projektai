@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4bcc00e-d342-4348-b74b-64602c021c66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaTypes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lt/techin/karolina/skaidres54/JavaByte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lt/techin/karolina/skaidres54/Variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lt/techin/karolina/skaidres54/byteExample.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FcyDBBcohP5XltEi0R6poHKi2o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vakaras/Desktop/Projektai/techin.pd9"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.JavaByte">
+    <configuration name="JavaByte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.techin.karolina.skaidres54.JavaByte" />
+      <module name="javaTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.techin.karolina.skaidres54.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dateTypes (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.techin.karolina.skaidres54.dateTypes" />
+      <module name="javaTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.techin.karolina.skaidres54.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dateTypes (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.techin.karolina.skaidres54.dateTypes" />
+      <module name="javaTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.techin.karolina.skaidres54.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dateTypes (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.techin.karolina.skaidres54.dateTypes" />
+      <module name="javaTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.techin.karolina.skaidres54.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dateTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.techin.karolina.skaidres54.dateTypes" />
+      <module name="javaTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.techin.karolina.skaidres54.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaByte" />
+        <item itemvalue="Application.dateTypes" />
+        <item itemvalue="Application.dateTypes (5)" />
+        <item itemvalue="Application.dateTypes (4)" />
+        <item itemvalue="Application.dateTypes (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4bcc00e-d342-4348-b74b-64602c021c66" name="Changes" comment="" />
+      <created>1664805546251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664805546251</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
