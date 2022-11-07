@@ -1,0 +1,11 @@
+Kūrėjas (angl. builder)
+Separate the construction of a complex object from its representation, allowing
+the same construction process to create various representations. Problem: an
+application needs to create the elements of a complex aggregate.
+The specification for the aggregate exists on secondary storage and one of
+many representations needs to be built in primary storage.
+
+1 uzduotis:
+Turime uzrasu knygute su kontaktais, musu kontaktas visada turi ivairia informacija
+(el pastas, vardas, numeris, fb paskira ir t.t.), bet ne visu zmoniu ta info
+yra uzpildyta

@@ -1,0 +1,10 @@
+Teorija:
+Vienintelis objektas (angl. singleton)
+Ensure a class has only one instance, and provide a global point of access to it.
+Problem: application needs one, and only one, instance of an object. Additionally, lazy initialization and global access are necessary.
+
+1 uzduotis:
+Programa, kuri priims pranesimus (ClientOne, ClienTwo, MainForTest, ProgramLogger)
+2 uzduotis:
+Programa, kuri spausdina kolekcijas, kurias mes jam paduodame (PrintSpooler, TaskManager)
+
