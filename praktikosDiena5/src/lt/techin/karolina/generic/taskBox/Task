@@ -1,0 +1,11 @@
+3. Parašykite klasę „Box“ dviejų nurodyto tipo objektų saugojimui. Parašykite getterius ir
+toString.
+Box<String> twoNames = new Box<>("John", "Jane");
+System.out.printf("twoNames=%s.%n", twoNames);
+String name1 = twoNames.getItem1(); // Value is "John"
+String name2 = twoNames.getItem2(); // Value is "Jane"
+
+Box<Integer> twoNums = new Box<>(8, 5);
+System.out.printf("twoNums=%s.%n", twoNums);
+Integer num1 = twoNums.getItem1(); // Value is 8
+Integer num2 = twoNums.getItem2(); // Value is 5

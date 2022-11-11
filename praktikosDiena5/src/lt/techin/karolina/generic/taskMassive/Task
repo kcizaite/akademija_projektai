@@ -1,0 +1,5 @@
+2. Parašykite antrą metodą, kuris kaip parametrą priimtų masyvą.
+List<String> wordList = ...;
+String lastWord1 = ElementUtils.lastElement(wordList);
+String[] wordArray = ...;
+String lastWord2 = ElementUtils.lastElement(wordArray);

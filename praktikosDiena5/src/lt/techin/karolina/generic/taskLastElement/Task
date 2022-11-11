@@ -1,0 +1,8 @@
+Parašykite statinį metodą „lastElement“ kuriam kaip parametrą paduodame List‘ą.
+Metodas grąžina paskutinį List elementą. Jei paduodame String List‘ą, tai turime gauti
+String, jei paduodame Shape, tai turime gauti Shape ir t.t.
+
+List<Shape> listOfShapes = ...;
+Shape lastShape = ElementUtils.lastElement(listOfShapes);
+List<String> wordList = ...;
+String lastWord = ElementUtils.lastElement(wordList);
