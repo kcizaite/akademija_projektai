@@ -1,0 +1,20 @@
+Maven
++ Iskart sukuria JAVA ir TEST failus
++ Sukuriami properties
+
+Turime isideti i PROJECT dali pom.xml faile
+pvz. sena junit versija
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+ https://mvnrepository.com/artifact/junit/junit/4.13.2
+NAUJOS VERSIJOS REIKIA !!!
+
+
+
+
