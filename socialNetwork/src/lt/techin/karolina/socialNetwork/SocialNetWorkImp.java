@@ -9,12 +9,14 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class SocialNetWorkImp implements SocialNetwork{
+public class SocialNetWorkImp implements SocialNetwork {
     List<Friend> friendList = new ArrayList<>();
 
     @Override
-    public void addFriend(Friend friend) {
+    public void addFriend(Friend friend) throws IllegalArgumentException{
         if (friendList.contains(friend)) {
+        } else if (friend == null) {
+            throw new IllegalArgumentException("IllegalArgumentException");
         } else {
             friendList.add(friend);
         }
@@ -26,17 +28,35 @@ public class SocialNetWorkImp implements SocialNetwork{
     }
 
     @Override
-    public Friend findFriend(String s, String s1) throws FriendNotFoundException {
-        return null;
+    public Friend findFriend(String firstName, String lastName) throws FriendNotFoundException {
+//        Collection collection = new ArrayList<>();
+        Friend collection = null;
+        for (Friend friend : friendList) {
+            if (firstName.matches(friend.getFirstName())
+                    && lastName.matches(friend.getLastName())) {
+                collection = friend;
+            } else {
+                throw new FriendNotFoundException(firstName, lastName);
+            }
+        }
+        return collection;
     }
 
+
     @Override
-    public Collection<Friend> findByCity(String s) {
-        return null;
+    public Collection<Friend> findByCity(String city) {
+        Collection collections = new ArrayList<>();
+        for (Friend friend : friendList) {
+            if (city.matches(friend.getCity())) {
+                collections.add(friend);
+            }
+        }
+        return collections;
     }
 
     @Override
     public Collection<Friend> getOrderedFriends() {
-       return Collections.sort(friendList, new ComporatorFriend());
+//       return Collections.sort(friendList, new ComporatorFriend());
+        return null;
     }
 }
