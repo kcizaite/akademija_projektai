@@ -1,5 +1,7 @@
 package lt.techin.karolina.praktikosdiena2;
 
+import java.util.Arrays;
+import java.util.OptionalDouble;
 import java.util.Scanner;
 
 public class JavaMassiveMinMaxAverage {
@@ -8,19 +10,21 @@ public class JavaMassiveMinMaxAverage {
         System.out.println("Enter your numbers: (for example: 1,2,10.. - without SPACES!");
 //        Priimsiu kaip string ir per duota dalyka, pvz. ,. issplitinsiu i numberius
         String inputSring = input.nextLine();
-//        System.out.println(inputSring);
         String[] numbersSplit = inputSring.split(",");
-//        System.out.println(numbersSplit);
-        int[] numberList = {};
 
-//        int numbers = int()
-        for (int i = 0; i < numbersSplit.length; i++) {
-            String numbersX = numbersSplit[i];
-            System.out.println(numbersX);
-            char[] numbers = numbersX.toCharArray();
-            System.out.println(numbers);
-
+        int[] numberList = new int[numbersSplit.length]; // masyvo dydis, maisiukas
+        int counter = 0;
+        for (String number : numbersSplit) {
+            numberList[counter++] = Integer.parseInt(number);
         }
+        System.out.println(Arrays.toString(numberList));
 
+        int maxNumber = Arrays.stream(numberList).max().getAsInt();
+        int minNumber = Arrays.stream(numberList).min().getAsInt();
+        double avgNumber = Arrays.stream(numberList).average().getAsDouble();
+
+        System.out.println("Max value : " + maxNumber);
+        System.out.println("Min value : " + minNumber);
+        System.out.println("Avg value : " + avgNumber);
     }
 }

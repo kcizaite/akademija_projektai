@@ -1,54 +1,42 @@
 package lt.techin.karolina.oop3;
-// Jeigu lauke taskas netalpinamas, mes tai pasakome
+
 public class Field {
-    private int x;
-    private int y;
-    private double size;
+    private int fromX;
+    private int fromY;
+    private int tillX;
+    private int tillY;
 
-    public Field() {
-        this(0, 0);
-    }
-    public Field(int x, int y) {
-        setX(x);
-        setY(y);
-    }
-
-    public int getX() {
-        return x;
-    }
-
-    public void setX(int x) {
-        this.x = x;
-        countFieldSize();
-    }
-
-    public int getY() {
-        return y;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-        countFieldSize();
+    public Field(int fromX, int fromY, int tillX, int tillY) {
+        this.fromX = fromX;
+        this.fromY = fromY;
+        this.tillX = tillX;
+        this.tillY = tillY;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("Field point (");
-        sb.append(this.x);
-        sb.append(", ");
-        sb.append(this.y);
-        sb.append(")");
-        return sb.toString();
+        return "field start x=" + fromX +
+                ", field start y=" + fromY +
+                ", field end x=" + tillX +
+                ", field end y=" + tillY +
+                '}';
     }
 
-    public double countFieldSize() { // private
-        size = (x * y);
-        return size;
+    public boolean countPoint(Point coordinatePoint) {
+        System.out.println(coordinatePoint.getX() + " <= " + fromX);
+        System.out.println(coordinatePoint.getX() <= fromX);
+        System.out.println(coordinatePoint.getX() + " >= " + tillX);
+        System.out.println(coordinatePoint.getX() >= tillX);
+        System.out.println(coordinatePoint.getY() + " <= " + fromY);
+        System.out.println(coordinatePoint.getY() <= fromY);
+        System.out.println(coordinatePoint.getY() + " >= " + tillY);
+        System.out.println(coordinatePoint.getY() >= tillY);
+        if (coordinatePoint.getX() >= fromX && coordinatePoint.getX() <= tillX &&
+                coordinatePoint.getY() >= fromY && coordinatePoint.getY() <= tillY) {
+
+            return true;
+        }
+        return false;
+
     }
-
-    public double getSize() {
-        return size;
-    }
-
-
 }
