@@ -6,9 +6,5 @@ public class MainToTest {
         greeterLith.greet("Karo", "Lina");
         Greeter greeterEngl = new EnglishGreeter();
         greeterEngl.greet("Karo", "Lina");
-
-// strategy
-// Greeter greeter = new Greeter (new LithGreetingStrategy));
-// greeter.greet("Karo", "Lina");
     }
 }
